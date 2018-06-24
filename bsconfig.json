@@ -1,0 +1,15 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "sources": "src",
+  "entries": [{
+    "backend": "bytecode",
+    "main-module": "Index",
+    "output-name": "hello"
+  },{
+    "backend": "native",
+    "main-module": "Index",
+    "output-name": "hello"
+  }],
+  "refmt": 3
+}
